@@ -1,0 +1,215 @@
+{
+  "metaData": {
+    "version": "1.9.24",
+    "versionNumber": 67864
+  },
+  "projectSettings": {
+    "containers": {
+      "dashboardSettings": {
+        "parameters": [
+          {
+            "value": "",
+            "controlAddress": "/showDashboardOnStartup",
+            "enabled": false
+          }
+        ]
+      },
+      "customDefinitions": {
+      }
+    }
+  },
+  "dashboardManager": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "parrots": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "layout": {
+    "mainLayout": {
+      "type": 1,
+      "width": 1537,
+      "height": 774,
+      "direction": 2,
+      "shifters": [
+        {
+          "type": 1,
+          "width": 1537,
+          "height": 774,
+          "direction": 1,
+          "shifters": [
+            {
+              "type": 1,
+              "width": 349,
+              "height": 774,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 349,
+                  "height": 209,
+                  "currentContent": "Modules",
+                  "tabs": [
+                    {
+                      "name": "Modules"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 349,
+                  "height": 292,
+                  "currentContent": "Custom Variables",
+                  "tabs": [
+                    {
+                      "name": "Custom Variables"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 349,
+                  "height": 261,
+                  "currentContent": "Sequences",
+                  "tabs": [
+                    {
+                      "name": "Sequences"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "width": 687,
+              "height": 774,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 687,
+                  "height": 431,
+                  "currentContent": "Sequence Editor",
+                  "tabs": [
+                    {
+                      "name": "State Machine"
+                    },
+                    {
+                      "name": "Sequence Editor"
+                    },
+                    {
+                      "name": "Dashboard"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 687,
+                  "height": 337,
+                  "currentContent": "Logger",
+                  "tabs": [
+                    {
+                      "name": "Logger"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "width": 489,
+              "height": 774,
+              "currentContent": "Inspector",
+              "tabs": [
+                {
+                  "name": "Inspector"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "windows": null
+  },
+  "modules": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "customVariables": {
+    "items": [
+      {
+        "niceName": "Group",
+        "type": "CVGroup",
+        "params": {
+        },
+        "variables": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "presets": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      }
+    ],
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "states": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0,
+    "transitions": {
+      "hideInEditor": true,
+      "viewOffset": [
+        0,
+        0
+      ],
+      "viewZoom": 1.0
+    },
+    "comments": {
+      "hideInEditor": true,
+      "viewOffset": [
+        0,
+        0
+      ],
+      "viewZoom": 1.0
+    }
+  },
+  "sequences": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "routers": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  }
+}
