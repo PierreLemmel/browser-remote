@@ -35,26 +35,26 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1537,
-      "height": 774,
+      "width": 1924,
+      "height": 1041,
       "direction": 2,
       "shifters": [
         {
           "type": 1,
-          "width": 1537,
-          "height": 774,
+          "width": 1924,
+          "height": 1041,
           "direction": 1,
           "shifters": [
             {
               "type": 1,
-              "width": 349,
-              "height": 774,
+              "width": 478,
+              "height": 1041,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 349,
-                  "height": 209,
+                  "width": 478,
+                  "height": 298,
                   "currentContent": "Modules",
                   "tabs": [
                     {
@@ -64,8 +64,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 349,
-                  "height": 292,
+                  "width": 478,
+                  "height": 381,
                   "currentContent": "Custom Variables",
                   "tabs": [
                     {
@@ -75,8 +75,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 349,
-                  "height": 261,
+                  "width": 478,
+                  "height": 350,
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -88,14 +88,14 @@
             },
             {
               "type": 1,
-              "width": 687,
-              "height": 774,
+              "width": 816,
+              "height": 1041,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 687,
-                  "height": 431,
+                  "width": 816,
+                  "height": 698,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -111,7 +111,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 687,
+                  "width": 816,
                   "height": 337,
                   "currentContent": "Logger",
                   "tabs": [
@@ -124,8 +124,8 @@
             },
             {
               "type": 0,
-              "width": 489,
-              "height": 774,
+              "width": 618,
+              "height": 1041,
               "currentContent": "Inspector",
               "tabs": [
                 {
@@ -179,7 +179,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 1.0,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0.0,
@@ -496,8 +496,8 @@
                 {
                   "value": [
                     1.0,
-                    1.0,
-                    1.0,
+                    0.1500000059604645,
+                    0.7847647070884705,
                     1.0
                   ],
                   "controlAddress": "/color1",
@@ -518,8 +518,8 @@
               "parameters": [
                 {
                   "value": [
-                    1.0,
-                    1.0,
+                    0.0,
+                    0.03433465957641602,
                     1.0,
                     1.0
                   ],
