@@ -35,26 +35,26 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1537,
-      "height": 774,
+      "width": 1924,
+      "height": 1041,
       "direction": 2,
       "shifters": [
         {
           "type": 1,
-          "width": 1537,
-          "height": 774,
+          "width": 1924,
+          "height": 1041,
           "direction": 1,
           "shifters": [
             {
               "type": 1,
-              "width": 349,
-              "height": 774,
+              "width": 478,
+              "height": 1041,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 349,
-                  "height": 209,
+                  "width": 478,
+                  "height": 298,
                   "currentContent": "Modules",
                   "tabs": [
                     {
@@ -64,8 +64,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 349,
-                  "height": 292,
+                  "width": 478,
+                  "height": 381,
                   "currentContent": "Custom Variables",
                   "tabs": [
                     {
@@ -75,8 +75,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 349,
-                  "height": 261,
+                  "width": 478,
+                  "height": 350,
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -88,14 +88,14 @@
             },
             {
               "type": 1,
-              "width": 687,
-              "height": 774,
+              "width": 816,
+              "height": 1041,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 687,
-                  "height": 431,
+                  "width": 816,
+                  "height": 698,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -111,7 +111,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 687,
+                  "width": 816,
                   "height": 337,
                   "currentContent": "Logger",
                   "tabs": [
@@ -124,8 +124,8 @@
             },
             {
               "type": 0,
-              "width": 489,
-              "height": 774,
+              "width": 618,
+              "height": 1041,
               "currentContent": "Inspector",
               "tabs": [
                 {
@@ -154,6 +154,712 @@
         "params": {
         },
         "variables": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value1",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 1",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 1",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.9148351550102234,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value2",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 2",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 2",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value3",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 3",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 3",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value4",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 4",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 4",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value5",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 5",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 5",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value6",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 6",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 6",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value7",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 7",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 7",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value8",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 8",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 8",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value9",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 9",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 9",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value10",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 10",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 10",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value11",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 11",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 11",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value12",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 12",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 12",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value13",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 13",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 13",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value14",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 14",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 14",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value15",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 15",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 15",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 0.0,
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "default": 0.0,
+                  "controlAddress": "/value16",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Value 16",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Value 16",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    0.1500000059604645,
+                    0.7847647070884705,
+                    1.0
+                  ],
+                  "controlAddress": "/color1",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 1",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 1",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    0.0,
+                    0.03433465957641602,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color2",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 2",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 2",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color3",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 3",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 3",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color4",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 4",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 4",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color5",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 5",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 5",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color6",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 6",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 6",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color7",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 7",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 7",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color8",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 8",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 8",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color9",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 9",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 9",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color10",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 10",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 10",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color11",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 11",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 11",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color12",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 12",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 12",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color13",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 13",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 13",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color14",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 14",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 14",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color15",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 15",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 15",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/color16",
+                  "feedbackOnly": false,
+                  "type": "Color",
+                  "niceName": "Color 16",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Color",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Color 16",
+              "editorIsCollapsed": true,
+              "type": "Color Parameter"
+            }
+          ],
           "viewOffset": [
             0,
             0

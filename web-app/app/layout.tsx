@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { cn } from "./lib/utils";
-
-
+import { cn } from "@/lib/utils";
+import { ChataigneProvider } from "@/contexts/ChataigneContext";
+import { ChataigneConfigOverlay } from "@/components/ChataigneConfigOverlay";
 
 export const metadata: Metadata = {
 	title: "Plml Browser Remote",
@@ -14,13 +14,17 @@ export type RootLayoutProps = {
 };
 
 export default function RootLayout(props: RootLayoutProps) {
-	const { children } = props;
+    const { children } = props;
 
-	return <html lang="en">
-		<body
-			className={cn("antialiased")}
-		>
-			{children}
-		</body>
+    return <html lang="en">
+        <body className={cn(
+            "antialiased",
+            "w-screen h-screen overflow-hidden"
+        )}>
+            <ChataigneProvider>
+                {children}
+                <ChataigneConfigOverlay />
+            </ChataigneProvider>
+        </body>
     </html>
 }
