@@ -25,9 +25,11 @@ export const defaultChataignePort = 42000;
 
 export function ChataigneProvider(props: ChataigneProviderProps) {
 
-    const { 
+
+
+    const {
         children, 
-        initialHost = defaultChataigneHost, 
+        initialHost = (typeof window !== 'undefined' && window.location?.hostname) ?? defaultChataigneHost, 
         initialPort = defaultChataignePort 
     } = props;
 

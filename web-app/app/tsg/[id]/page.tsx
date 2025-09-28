@@ -1,19 +1,19 @@
 "use client";
 
-import SimpleColorDisplay from "@/components/visual/simpleColorDisplay";
+import TransgenderDisplay from "@/components/visual/transgenderDisplay";
 import { useParams } from "next/navigation";
 
-const SimpleDisplayPage = () => {
+const TsMappingPage = () => {
     const { id: idString } = useParams();
 
     const id = parseInt(idString as string);
 
     return <div className="w-full h-full">
-        <SimpleColorDisplay
+        <TransgenderDisplay
             id={id}
             className="w-full h-full"
         />
     </div>
 }
 
-export default SimpleDisplayPage;
+export default TsMappingPage;

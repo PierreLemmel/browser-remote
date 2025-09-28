@@ -1,6 +1,6 @@
 "use client";
 
-import SimpleColorDisplay from "@/components/visual/simpleColorDisplay";
+import TransgenderDisplay from "@/components/visual/transgenderDisplay";
 import { cn, sequence } from "@/lib/utils";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ const SimpleDisplayOverviewPage = () => {
     )}>
         {sequence({ start: 1,count: 16 }).map((i) => (
             <div key={`SCD-${i.toString()}`} className="bg-blue-400">
-                <SimpleColorDisplay
+                <TransgenderDisplay
                     id={i}
                     className="w-full h-full"
                 >
@@ -32,7 +32,7 @@ const SimpleDisplayOverviewPage = () => {
                             Preview display
                         </Link>
                     </div>
-                </SimpleColorDisplay>
+                </TransgenderDisplay>
             </div>
         ))}
     </div>

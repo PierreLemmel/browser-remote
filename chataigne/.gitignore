@@ -1,1 +1,5 @@
-*_autosave/
+*_autosave
+
+*_recovered.noisette
+
+crashlog.*

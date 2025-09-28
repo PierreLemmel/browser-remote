@@ -47,14 +47,14 @@
           "shifters": [
             {
               "type": 1,
-              "width": 478,
+              "width": 496,
               "height": 1041,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 478,
-                  "height": 298,
+                  "width": 496,
+                  "height": 327,
                   "currentContent": "Modules",
                   "tabs": [
                     {
@@ -64,8 +64,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 478,
-                  "height": 381,
+                  "width": 496,
+                  "height": 366,
                   "currentContent": "Custom Variables",
                   "tabs": [
                     {
@@ -75,8 +75,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 478,
-                  "height": 350,
+                  "width": 496,
+                  "height": 335,
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -88,13 +88,13 @@
             },
             {
               "type": 1,
-              "width": 816,
+              "width": 737,
               "height": 1041,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 816,
+                  "width": 737,
                   "height": 698,
                   "currentContent": "Sequence Editor",
                   "tabs": [
@@ -111,7 +111,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 816,
+                  "width": 737,
                   "height": 337,
                   "currentContent": "Logger",
                   "tabs": [
@@ -124,7 +124,7 @@
             },
             {
               "type": 0,
-              "width": 618,
+              "width": 677,
               "height": 1041,
               "currentContent": "Inspector",
               "tabs": [
@@ -140,6 +140,79 @@
     "windows": null
   },
   "modules": {
+    "items": [
+      {
+        "niceName": "Sound Card",
+        "type": "Sound Card",
+        "scripts": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "params": {
+          "containers": {
+            "inputVolumes": {
+            },
+            "outputVolumes": {
+              "editorIsCollapsed": true
+            },
+            "monitor": {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ]
+            },
+            "fftAnalysis": {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "editorIsCollapsed": true,
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "ltc": {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ]
+            }
+          }
+        },
+        "templates": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "analyzer": {
+          "parameters": [
+            {
+              "value": false,
+              "controlAddress": "/enabled"
+            }
+          ],
+          "editorIsCollapsed": true,
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      }
+    ],
     "viewOffset": [
       0,
       0
@@ -149,7 +222,7 @@
   "customVariables": {
     "items": [
       {
-        "niceName": "Group",
+        "niceName": "Transgender",
         "type": "CVGroup",
         "params": {
         },
@@ -158,706 +231,20 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value1",
+                  "value": 77.5,
+                  "controlAddress": "/bpm",
                   "feedbackOnly": false,
                   "type": "Float",
-                  "niceName": "Value 1",
+                  "niceName": "Bpm",
                   "customizable": true,
                   "removable": false,
                   "description": "Custom control of type Float",
                   "hideInEditor": false
                 }
               ],
-              "niceName": "Value 1",
+              "niceName": "Bpm",
               "editorIsCollapsed": true,
               "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value2",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 2",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 2",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value3",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 3",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 3",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value4",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 4",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 4",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value5",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 5",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 5",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 1.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value6",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 6",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 6",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value7",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 7",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 7",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value8",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 8",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 8",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.5824176073074341,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value9",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 9",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 9",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value10",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 10",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 10",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value11",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 11",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 11",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value12",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 12",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 12",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value13",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 13",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 13",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value14",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 14",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 14",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value15",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 15",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 15",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 0.0,
-                  "minValue": 0,
-                  "maxValue": 1,
-                  "default": 0.0,
-                  "controlAddress": "/value16",
-                  "feedbackOnly": false,
-                  "type": "Float",
-                  "niceName": "Value 16",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Float",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Value 16",
-              "editorIsCollapsed": true,
-              "type": "Float Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    0.1500000059604645,
-                    0.7847647070884705,
-                    1.0
-                  ],
-                  "controlAddress": "/color1",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 1",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 1",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    0.0,
-                    0.03433465957641602,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color2",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 2",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 2",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color3",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 3",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 3",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color4",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 4",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 4",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color5",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 5",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 5",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color6",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 6",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 6",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color7",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 7",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 7",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color8",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 8",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 8",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color9",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 9",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 9",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color10",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 10",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 10",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color11",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 11",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 11",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color12",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 12",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 12",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color13",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 13",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 13",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color14",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 14",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 14",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color15",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 15",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 15",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "controlAddress": "/color16",
-                  "feedbackOnly": false,
-                  "type": "Color",
-                  "niceName": "Color 16",
-                  "customizable": true,
-                  "removable": false,
-                  "description": "Custom control of type Color",
-                  "hideInEditor": false
-                }
-              ],
-              "niceName": "Color 16",
-              "editorIsCollapsed": true,
-              "type": "Color Parameter"
             }
           ],
           "viewOffset": [
@@ -882,6 +269,588 @@
     "viewZoom": 1.0
   },
   "states": {
+    "items": [
+      {
+        "parameters": [
+          {
+            "value": false,
+            "controlAddress": "/miniMode"
+          },
+          {
+            "value": [
+              -333.0,
+              -203.0
+            ],
+            "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": [
+              294.0,
+              424.0
+            ],
+            "controlAddress": "/viewUISize"
+          },
+          {
+            "value": true,
+            "controlAddress": "/active"
+          }
+        ],
+        "niceName": "Transgender",
+        "type": "State",
+        "processors": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": 74.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 16,
+                  "hexMode": false,
+                  "controlAddress": "/count"
+                }
+              ],
+              "niceName": "Output Values",
+              "containers": {
+                "lists": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 1.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#1"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#2"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#3"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#4"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#5"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#6"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#7"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#8"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#9"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#10"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#11"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#12"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#13"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#14"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#15"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#16"
+                        }
+                      ],
+                      "niceName": "Values",
+                      "type": "Float",
+                      "listSize": 16
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#1"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#2"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#3"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#4"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#5"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#6"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#7"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#8"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#9"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#10"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#11"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#12"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#13"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#14"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#15"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/#16"
+                        }
+                      ],
+                      "niceName": "Colors",
+                      "type": "Color",
+                      "listSize": 16
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#1"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#2"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#3"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#4"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#5"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#6"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#7"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#8"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#9"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#10"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#11"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#12"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#13"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#14"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#15"
+                        },
+                        {
+                          "value": 0.0,
+                          "minValue": 0,
+                          "maxValue": 1,
+                          "default": 0.0,
+                          "controlAddress": "/#16"
+                        }
+                      ],
+                      "niceName": "Strobe amplitudes",
+                      "editorIsCollapsed": true,
+                      "type": "Float",
+                      "listSize": 16
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#1"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#2"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#3"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#4"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#5"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#6"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#7"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#8"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#9"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#10"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#11"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#12"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#13"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#14"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#15"
+                        },
+                        {
+                          "value": 0.125,
+                          "minValue": 0.125,
+                          "maxValue": 8.0,
+                          "default": 0.0,
+                          "controlAddress": "/#16"
+                        }
+                      ],
+                      "niceName": "Strobe speeds",
+                      "type": "Float",
+                      "listSize": 16
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "processors": {
+                  "hideInEditor": true,
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "Multiplex"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      }
+    ],
     "viewOffset": [
       0,
       0
@@ -905,6 +874,3351 @@
     }
   },
   "sequences": {
+    "items": [
+      {
+        "parameters": [
+          {
+            "value": 176.62,
+            "controlAddress": "/totalTime"
+          },
+          {
+            "value": 77.5,
+            "controlMode": 2,
+            "reference": {
+              "value": "/customVariables/transgender/variables/bpm/bpm",
+              "controlAddress": "/reference"
+            },
+            "controlAddress": "/bpmPreview",
+            "enabled": true
+          },
+          {
+            "value": 4,
+            "hexMode": false,
+            "controlAddress": "/beatsPerBar"
+          },
+          {
+            "value": "",
+            "controlAddress": "/ltcSyncModule",
+            "enabled": false
+          }
+        ],
+        "niceName": "Transgender",
+        "type": "Sequence",
+        "layers": {
+          "hideInEditor": true,
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": 80.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 80,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Audio",
+              "type": "Audio",
+              "clips": {
+                "hideInEditor": true,
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "C:/Users/Dell/Downloads/Transgender.mp3",
+                        "controlAddress": "/filePath"
+                      }
+                    ],
+                    "niceName": "AudioClip",
+                    "editorIsCollapsed": true,
+                    "type": "AudioClip"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "channels": {
+                "parameters": [
+                  {
+                    "value": true,
+                    "controlAddress": "/channelOutLeft"
+                  },
+                  {
+                    "value": true,
+                    "controlAddress": "/channelOutRight"
+                  }
+                ]
+              },
+              "audioModule": "soundCard"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 60.0,
+                  "controlAddress": "/listSize"
+                }
+              ],
+              "niceName": "Sequences",
+              "type": "Sequences",
+              "blocks": {
+                "hideInEditor": true,
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/startTime"
+                      },
+                      {
+                        "value": 24.79999923706055,
+                        "controlAddress": "/length"
+                      },
+                      {
+                        "value": "/transgender1_8",
+                        "controlAddress": "/sequence"
+                      }
+                    ],
+                    "niceName": "SequenceBlock",
+                    "editorIsCollapsed": true,
+                    "type": "SequenceBlock"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "cues": {
+          "hideInEditor": true,
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      },
+      {
+        "parameters": [
+          {
+            "value": 24.8,
+            "controlAddress": "/totalTime"
+          },
+          {
+            "value": 77.5,
+            "controlMode": 2,
+            "reference": {
+              "value": "/customVariables/transgender/variables/bpm/bpm",
+              "controlAddress": "/reference"
+            },
+            "controlAddress": "/bpmPreview",
+            "enabled": true
+          },
+          {
+            "value": 4,
+            "hexMode": false,
+            "controlAddress": "/beatsPerBar"
+          },
+          {
+            "value": 0.1000000014901161,
+            "controlAddress": "/viewStartTime"
+          },
+          {
+            "value": 2.180000066757202,
+            "controlAddress": "/viewEndTime"
+          },
+          {
+            "value": "",
+            "controlAddress": "/ltcSyncModule",
+            "enabled": false
+          }
+        ],
+        "niceName": "Transgender 1-8",
+        "type": "Sequence",
+        "layers": {
+          "hideInEditor": true,
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 1",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/value"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                0.001591399312019348,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -0.001591399312019348,
+                                0.0005544424057006836
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": 1.0,
+                          "controlAddress": "/value"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 2",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                0.05099662393331528,
+                                -0.0005544424057006836
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -0.4517307877540588,
+                                0.01710164546966553
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 0.7038710117340088,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": 1.0,
+                          "controlAddress": "/value"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 3",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                0.1297204494476318,
+                                -0.01710164546966553
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -0.1207742094993591,
+                                0.4298555254936218
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 0.8335914611816406,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/value"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 4",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.192606449127197,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.192606449127197,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/value"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#1",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 2",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#2",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 3",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#3",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 4",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#4",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 5",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#5",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 6",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#6",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 7",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#7",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 8",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#8",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 9",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#9",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 10",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#10",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 11",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#11",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 12",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#12",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 13",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#13",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 14",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#14",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 15",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#15",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 120.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 120,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Value 16",
+              "containers": {
+                "automation": {
+                  "parameters": [
+                    {
+                      "value": 24.79999923706055,
+                      "controlAddress": "/length"
+                    },
+                    {
+                      "value": 0.01999999955296516,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/viewValueRange"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        1.0
+                      ],
+                      "controlAddress": "/range",
+                      "enabled": true
+                    }
+                  ],
+                  "hideInEditor": true,
+                  "hideInRemoteControl": false,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key",
+                      "containers": {
+                        "easing": {
+                          "parameters": [
+                            {
+                              "value": [
+                                7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor1"
+                            },
+                            {
+                              "value": [
+                                -7.344000339508057,
+                                0.0
+                              ],
+                              "controlAddress": "/anchor2"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "Key"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.79999923706055,
+                          "controlAddress": "/position"
+                        },
+                        {
+                          "value": "Bezier",
+                          "controlAddress": "/easingType"
+                        }
+                      ],
+                      "niceName": "Key 1",
+                      "containers": {
+                        "easing": {
+                        }
+                      },
+                      "type": "Key"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                },
+                "recorder": {
+                  "parameters": [
+                    {
+                      "value": "",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "editorIsCollapsed": true
+                },
+                "mapping": {
+                  "niceName": "Mapping",
+                  "type": "Mapping",
+                  "im": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "",
+                            "controlAddress": "/inputValue"
+                          }
+                        ],
+                        "niceName": "Input Value",
+                        "type": "Input Value"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "params": {
+                    "parameters": [
+                      {
+                        "value": 50,
+                        "hexMode": false,
+                        "controlAddress": "/updateRate"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "filters": {
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "generic",
+                        "commandPath": "",
+                        "commandType": "Set Parameter Value",
+                        "command": {
+                          "parameters": [
+                            {
+                              "value": "/states/transgender/processors/outputValues/lists/values/#16",
+                              "controlAddress": "/target"
+                            },
+                            {
+                              "value": "All",
+                              "controlAddress": "/component"
+                            },
+                            {
+                              "value": "Equals",
+                              "controlAddress": "/operator"
+                            }
+                          ],
+                          "paramLinks": {
+                            "value": {
+                              "linkType": 1,
+                              "mappingValueIndex": 0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                }
+              },
+              "type": "Mapping"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "cues": {
+          "hideInEditor": true,
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "editing": true
+      }
+    ],
     "viewOffset": [
       0,
       0

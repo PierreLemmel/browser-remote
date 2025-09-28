@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "dev:local": "set PORT=1337 && next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
@@ -16,9 +17,8 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.544.0",
     "next": "15.5.3",
-    "p5": "^2.0.5",
     "react": "19.1.0",
-    "react-chataigne": "^1.0.1",
+    "react-chataigne": "^1.0.8",
     "react-dom": "19.1.0",
     "react-hook-form": "^7.63.0",
     "tailwind-merge": "^3.3.1",
