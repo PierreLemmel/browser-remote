@@ -10,7 +10,7 @@ const Home = () => {
 	)}>
 		<div className="text-4xl font-bold">Browser Remote</div>
 		<div>
-			<Link href="/simple-display/overview" className="text-gray-500 hover:underline">Simple Display Overview</Link>
+			<Link href="/tsg/overview" className="text-gray-500 hover:underline">Transgender Mapping Overview</Link>
 		</div>
 	</div>
 }

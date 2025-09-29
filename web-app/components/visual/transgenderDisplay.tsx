@@ -2,7 +2,7 @@
 
 import { useChataigneVariableRef } from "@/lib/hooks/useChataigneVariable";
 import { and, cn, or } from "@/lib/utils";
-import { useCallback } from "react";
+import { useCallback, useRef } from "react";
 import { DrawingBoard, DrawProps } from "../ui/drawing-board";
 
 export type TransgenderDisplayProps = {
@@ -20,7 +20,7 @@ const TransgenderDisplay = (props: TransgenderDisplayProps) => {
 
     const opacityPath = `/states/transgender/processors/outputValues/lists/outputValues/#${id}`;
     const colorPath = `/states/transgender/processors/outputValues/lists/colors/#${id}`;
-    const strobeAmplitudePath = `/states/transgender/processors/outputValues/lists/strobeAmplitudes/#${id}`;
+    const strobeAmplitudePath = `/states/transgender/processors/outputValues/lists/strobeOutputAmplitudes/#${id}`;
     const strobeSpeedPath = `/states/transgender/processors/outputValues/lists/strobeSpeeds/#${id}`;
     const bpmPath = "/customVariables/transgender/variables/bpm/bpm"; 
 
@@ -30,6 +30,8 @@ const TransgenderDisplay = (props: TransgenderDisplayProps) => {
     const [strobeSpeedRef, strobeSpeedLoading, strobeSpeedError] = useChataigneVariableRef<"Float">(strobeSpeedPath);
     const [bpmRef, bpmLoading, bpmError] = useChataigneVariableRef<"Float">(bpmPath);
 
+    const strobeRef = useRef<{ val: number, goUp: boolean }>({ val: 0, goUp: false });
+    
     const draw = useCallback((d: DrawProps) => {
         const {
             context,
@@ -55,9 +57,32 @@ const TransgenderDisplay = (props: TransgenderDisplayProps) => {
         const strobeSpeed = strobeSpeedRef.current.value;
         const bpm = bpmRef.current.value;
 
+        let { val: strobeVal, goUp: strobeGoUp } = strobeRef.current;
+
+        const dStrobe = (deltaTime / 1000) * (2 * strobeSpeed * bpm) / 60;
+
+        if (strobeGoUp) {
+            strobeVal += dStrobe;
+            if (strobeVal > 1) {
+                strobeVal = 2 - strobeVal;
+                strobeGoUp = false;
+            }
+        } else {
+            strobeVal -= dStrobe;
+            if (strobeVal < 0) {
+                strobeVal = -strobeVal;
+                strobeGoUp = true;
+            }
+        }
+
+        strobeRef.current = { val: strobeVal, goUp: strobeGoUp };
+
+        const resultOpacity = a * (1 - (strobeVal * strobeAmplitude));
+        console.log({ deltaTime, dStrobe, strobeVal, resultOpacity });
+        
         context.fillStyle = `black`;
         context.fillRect(0, 0, width, height);
-        context.fillStyle = `rgba(${r}, ${g}, ${b}, ${a})`;
+        context.fillStyle = `rgba(${r}, ${g}, ${b}, ${resultOpacity})`;
         context.fillRect(0, 0, width, height);
         
     }, []);

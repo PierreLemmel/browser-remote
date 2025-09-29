@@ -4,7 +4,7 @@ import TransgenderDisplay from "@/components/visual/transgenderDisplay";
 import { cn, sequence } from "@/lib/utils";
 import Link from "next/link";
 
-const SimpleDisplayOverviewPage = () => {
+const TsgOverviewPage = () => {
     return <div className={cn(
         "w-full h-full",
         "grid grid-cols-4 grid-rows-4",
@@ -23,7 +23,7 @@ const SimpleDisplayOverviewPage = () => {
                     )}>
                         <div className="text-xl font-bold">{i.toString()}</div>
                         <Link
-                            href={`/simple-display/${i}`} target="_blank" rel="noopener noreferrer"
+                            href={`/tsg/${i}`} target="_blank" rel="noopener noreferrer"
                             className={cn(
                                 "text-sm italic",
                                 "hover:underline"
@@ -38,4 +38,4 @@ const SimpleDisplayOverviewPage = () => {
     </div>
 }
 
-export default SimpleDisplayOverviewPage;
+export default TsgOverviewPage;
